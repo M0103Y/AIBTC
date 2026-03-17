@@ -1,0 +1,19 @@
+{
+  "name": "aibtc-worker",
+  "version": "1.0.6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node aibtc.js"
+  },
+  "bin": {
+    "aibtc-worker": "./aibtc.js"
+  },
+  "author": "dunty",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "ethers": "^6.16.0"
+  }
+}
